@@ -2,7 +2,7 @@ package com.wondersgroup.lz.usercenter.lombok;
 
 import lombok.val;
 import lombok.var;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.ArrayList;
 
