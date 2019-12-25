@@ -12,7 +12,11 @@ spring:
     nacos:
       discovery:
         server-addr: localhost:8848
-#        服务名称
+        #知道命名空间
+        namespace: 9d409d3e-94f3-4726-8da8-c04c1871187d
+        # 知道集群名称
+        cluster-name: XY
+  #        服务名称
   application:
     name: user-centos
 
