@@ -13,9 +13,13 @@ spring:
       discovery:
         server-addr: localhost:8848
         #知道命名空间
-        namespace: 9d409d3e-94f3-4726-8da8-c04c1871187d
+#        namespace: 9d409d3e-94f3-4726-8da8-c04c1871187d
         # 知道集群名称
-        cluster-name: XY
+#        cluster-name: XY
+        # 元数据
+        metadata:
+          instance: c
+          version: v1
   #        服务名称
   application:
     name: user-centos
