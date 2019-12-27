@@ -22,8 +22,7 @@ spring:
           version: v1
   #        服务名称
   application:
-    name: user-centos
+    name: user-center
 
 server:
   port: 8080
-# 配置nacos
