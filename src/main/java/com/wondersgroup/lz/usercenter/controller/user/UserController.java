@@ -23,4 +23,9 @@ public class UserController {
        return userService.getUserById(id);
     }
 
+    @GetMapping("q")
+    public User query(User user){
+        return user;
+    }
+
 }
